@@ -1,32 +1,31 @@
-# Timeout Backend
+# Mini-REST-API (FastAPI)
 
-A robust, production-ready Node.js backend API built with Express, MongoDB, JWT-based authentication, and rate-limiting middleware.  
-Ideal for handling user sessions, timeouts and secure API access.
+A lightweight, production-ready REST API built with FastAPI.
+This project demonstrates clean API design, modular structure, Docker support, and simple database integration.
+Perfect for learning, practicing backend development, or extending into real microservices.
 
-## 🔍 Features
+---
 
-- User authentication & authorization (JWT)
-- Rate limiting to protect endpoints from abuse
-- MongoDB data models (via Mongoose)
-- Clear project structure: controllers, models, routes, middleware
-- Environment-based configuration for secure deployment
-- Ready for both development (with hot-reload) and production usage
+## 🚀 Tech Stack
 
-## 🛠️ Tech Stack
+- **Python** (FastAPI)
+- **Uvicorn** ASGI server
+- **SQLModel / Pydantic** for models & validation
+- **SQLite** as embedded database (`app.db`)
+- **Pytest** for testing
+- **Docker** + **Makefile** for easy run & build
 
-- **Runtime / Framework**: Node.js + Express
-- **Database**: MongoDB (via Mongoose)
-- **Auth**: JSON Web Tokens (JWT)
-- **Rate Limiting**: Express rate-limit or custom middleware
-- **Env Config**: dotenv
-- **Structure**: MVC-style separation (controllers, models, routes, middleware)
-- **Others**: bcrypt for password hashing, cookie-parser, CORS support, etc.
+---
 
-## 🚀 Setup & Installation
+## 📦 Project Structure
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/Achrafbennanizia/backend.git
-cd backend
-```
+```text
+Mini-REST-API/
+├─ app/
+│  ├─ main.py          # FastAPI application entrypoint
+│  ├─ ...              # models, routers, db logic (see code)
+├─ tests/              # pytest tests
+├─ Dockerfile          # container image
+├─ Makefile            # helper commands
+├─ requirements.txt    # Python dependencies
+└─ README.md
