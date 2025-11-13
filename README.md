@@ -22,15 +22,6 @@ Ideal for handling user sessions, timeouts and secure API access.
 - **Structure**: MVC-style separation (controllers, models, routes, middleware)
 - **Others**: bcrypt for password hashing, cookie-parser, CORS support, etc.
 
-## 🚀 Setup & Installation
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/Achrafbennanizia/backend.git
-cd backend
-```
-
 ---
 
 ## 🚀 Setup & Installation
