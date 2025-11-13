@@ -30,4 +30,3 @@ Ideal for handling user sessions, timeouts and secure API access.
 git clone https://github.com/Achrafbennanizia/backend.git
 cd backend
 ```
-# Mini-REST-API
