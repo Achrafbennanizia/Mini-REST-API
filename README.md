@@ -45,10 +45,12 @@ source .venv/bin/activate
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
+---
 ### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
+---
 ### 4. Start the development server
 ```bash
 uvicorn app.main:app --reload
