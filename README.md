@@ -40,20 +40,29 @@ cd backend
 ```bash
 git clone https://github.com/xb5628kgrk-commits/Mini-REST-API.git
 cd Mini-REST-API
-
+```
 ---
 ### 2. Create a virtual environment
 
-macOS / Linux:
+#### macOS / Linux:
+```bash
 python -m venv .venv
 source .venv/bin/activate
-Windows:
+```
+#### Windows:
+```bash
 python -m venv .venv
 .venv\Scripts\Activate.ps1
-3. Install dependencies
+```
+### 3. Install dependencies
+```bash
 pip install -r requirements.txt
-4. Start the development server
+```
+### 4. Start the development server
+```bash
 uvicorn app.main:app --reload
+````
+
 API runs at:
 👉 http://127.0.0.1:8000
 Swagger UI:
